@@ -3,6 +3,8 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="POS/App.axaml" value="POS/POS.csproj" />
+        <entry key="POS/Styles/AppDefaultStyles.axaml" value="POS/POS.csproj" />
         <entry key="POS/Views/MainWindow.axaml" value="POS/POS.csproj" />
       </map>
     </option>

@@ -11,5 +11,18 @@
   
     <Application.Styles>
         <FluentTheme />
+        <StyleInclude Source="Styles/AppDefaultStyles.axaml"></StyleInclude>
     </Application.Styles>
+             
+    <Application.Resources>
+        <!--<SolidColorBrush x:Key="BackgroundColor">#21897e</SolidColorBrush>-->
+        <SolidColorBrush x:Key="PrimaryColor">#292f36</SolidColorBrush>
+        <SolidColorBrush x:Key="SecondaryColor">#c0e0de</SolidColorBrush>
+        <SolidColorBrush x:Key="TerciaryColor">#bd897e</SolidColorBrush>
+        <SolidColorBrush x:Key="TerciaryColorHover">#DFA094</SolidColorBrush>
+        <!--<LinearGradientBrush x:Key="PrimaryBackgroundGradient" StartPoint="0%, 0%" EndPoint="100%, 0%">
+            <GradientStop Offset="0" Color="Black"></GradientStop>
+            <GradientStop Offset="1" Color="#2A2A2A"></GradientStop>
+        </LinearGradientBrush>-->
+    </Application.Resources>
 </Application>
